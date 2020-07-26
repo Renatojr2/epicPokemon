@@ -1,6 +1,7 @@
 {
   "name": "pokemon_store",
   "version": "0.1.0",
+  "homepage": "https://renatojr2.github.io/epicPokemon/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
