@@ -7,11 +7,15 @@ padding: 20px;
 background: #eaeaea;
 width: 900px;
 margin: 20px;
+border: 1px solid #666;
+
 
 
 @media (max-width: 1085px) {
   width: 100%;
   height: 400px ;
+  margin: 20px auto;
+  overflow: scroll;
   
   }
 >div {

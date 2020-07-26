@@ -119,7 +119,6 @@ export const HeaderContainer = styled.header`
 
   img {
     width: 40%;
-    background: white;
   }
 `
 

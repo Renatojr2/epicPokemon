@@ -1,27 +1,26 @@
 import React, { useEffect, useState} from 'react';
 import api from '../../services/api';
 import { Container, ProductList, HeaderContainer, Form } from './styles';
-import { MdAddShoppingCart, MdSearch } from 'react-icons/md';
+import { MdSearch } from 'react-icons/md';
 import CartComponent from '../../components/Cart';
 import {useDispatch} from 'react-redux';
 import {addToCart} from '../../store/modules/cart/actions';
 import {format} from '../../util/format';
 import logo from '../../assets/image/logo.png';
 
+
 export default function HomePage () {
   const [ pokemons, setPokemons] = useState([]);
-  const [inputValue, setInputValue] = useState('')
+  const [inputValue, setInputValue] = useState([])
   const dispatch = useDispatch()
   console.log(inputValue)
  
   useEffect(()=> {
-    pokemons.find(pokemon => {
-      if(pokemon.name === inputValue) {
-        console.log(pokemon)
-      } 
+    const filterPokemon = pokemons.filter(pokemon => {
+      return pokemon.name.includes(inputValue)  
     })
-    
-  }, [inputValue])
+    setPokemons(filterPokemon)
+  },[inputValue])
 
   useEffect(() => {
     async function getPokemons () {
