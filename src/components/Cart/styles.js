@@ -5,7 +5,7 @@ import {darken} from 'polished';
 export const Container = styled.section`
 padding: 20px;
 background: #eaeaea;
-width: 900px;
+width: 700px;
 margin: 20px;
 border: 1px solid #666;
 
