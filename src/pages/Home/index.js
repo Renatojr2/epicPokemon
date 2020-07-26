@@ -35,7 +35,7 @@ export default function HomePage () {
           id,
           name,
           image: sprites.front_default,
-          description: `Força é ${id * 20}`,
+          description: `Força -  ${id * 20}`,
           price: 300 * (id + 1),
           priceFormated: format( 300 * (id + 1)),
         }
