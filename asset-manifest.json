@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/epicPokemon/static/js/main.72bff455.chunk.js",
-    "main.js.map": "/epicPokemon/static/js/main.72bff455.chunk.js.map",
+    "main.js": "/epicPokemon/static/js/main.3037e7a2.chunk.js",
+    "main.js.map": "/epicPokemon/static/js/main.3037e7a2.chunk.js.map",
     "runtime-main.js": "/epicPokemon/static/js/runtime-main.345fe67d.js",
     "runtime-main.js.map": "/epicPokemon/static/js/runtime-main.345fe67d.js.map",
     "static/css/2.d34346ea.chunk.css": "/epicPokemon/static/css/2.d34346ea.chunk.css",
     "static/js/2.b95cf8c6.chunk.js": "/epicPokemon/static/js/2.b95cf8c6.chunk.js",
     "static/js/2.b95cf8c6.chunk.js.map": "/epicPokemon/static/js/2.b95cf8c6.chunk.js.map",
     "index.html": "/epicPokemon/index.html",
-    "precache-manifest.e84edb0be471b9fd16ee8ec91bcfd057.js": "/epicPokemon/precache-manifest.e84edb0be471b9fd16ee8ec91bcfd057.js",
+    "precache-manifest.74fcdc7a6384a98225889c93c07499b0.js": "/epicPokemon/precache-manifest.74fcdc7a6384a98225889c93c07499b0.js",
     "service-worker.js": "/epicPokemon/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/epicPokemon/static/css/2.d34346ea.chunk.css.map",
     "static/js/2.b95cf8c6.chunk.js.LICENSE.txt": "/epicPokemon/static/js/2.b95cf8c6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.345fe67d.js",
     "static/css/2.d34346ea.chunk.css",
     "static/js/2.b95cf8c6.chunk.js",
-    "static/js/main.72bff455.chunk.js"
+    "static/js/main.3037e7a2.chunk.js"
   ]
 }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2153b4f0aa23b811afa0cf8e995b5bea",
+    "revision": "0dce248b1da2bc024ad7fcaea1c06fac",
     "url": "/epicPokemon/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/epicPokemon/static/js/2.b95cf8c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4786226b042167ebdbd1",
-    "url": "/epicPokemon/static/js/main.72bff455.chunk.js"
+    "revision": "7ef1e3c512f1e9d40f1c",
+    "url": "/epicPokemon/static/js/main.3037e7a2.chunk.js"
   },
   {
     "revision": "d18664c750b5c1bf303a",
