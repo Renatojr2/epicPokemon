@@ -18,19 +18,7 @@ border: 1px solid #666;
   overflow: scroll;
   
   }
->div {
-  display: flex;
-  padding: 12px;
-  justify-content: space-around;
-  align-items: center;
-  span {
-    font-size: 18px;
-    color: #222;
-  }
-  @media (max-width: 450px) {
-    padding: 8px;
-  }
-}
+
 
 footer {
   margin-top: 30px;
@@ -62,7 +50,40 @@ footer {
 
 `;
 
+export const Header = styled.div`
+  display: flex;
+  padding: 12px;
+  justify-content: space-around;
+  align-items: center;
+  span {
+    font-size: 18px;
+    color: #222;
+  }
+  @media (max-width: 450px) {
+    padding: 8px;
+  }
+
+`;
+
 export const ProductCart = styled.table`
+  @media (max-width: 450px) {
+    position: relative;
+
+    
+  }
+
+
+thead {
+  @media (max-width: 450px) {
+    position: absolute;
+    top: -12px;
+    left: -8px;
+    
+  }
+
+}
+
+
 
 thead th {
   padding: 9px;
@@ -78,17 +99,19 @@ thead th {
   
   }
   @media (max-width: 450px) {
-  padding: 8px;
-  top: 0;
-  left: 0;
- 
+  padding-right: 20px ;
   width: 5%;
   
   }
 
 }
 
+tbody td.nameGroup  {
+  @media (max-width: 450px) {
+    display: none;
+  }
 
+}
 tbody td {
   padding: 9px;
   border-bottom: 1px solid #111;
@@ -97,7 +120,8 @@ tbody td {
 img {
   width: 80px;
   @media (max-width: 450px) {
-    width: 60px;
+    max-width: 40px;
+    height: 40px;
   
   }
   strong {
@@ -111,12 +135,15 @@ strong {
   color: #333;
   display: block;
 }
+
 span {
   display: block;
   margin-top: 4px;
   color: #111;
   font-size: 18px;
   font-weight: bold;
+
+
   @media (max-width: 450px) {
     font-size: 14px;
   }
@@ -133,6 +160,7 @@ div {
     padding: 2px;
     width: 40px;
     text-align: center;
+
     @media (max-width: 450px) {
     width: 30px;
   }

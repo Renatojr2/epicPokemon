@@ -36,8 +36,8 @@ export default function HomePage () {
           name,
           image: sprites.front_default,
           description: `Força -  ${id * 20}`,
-          price: 300 * (id + 1),
-          priceFormated: format( 300 * (id + 1)),
+          price: 3 * (id + 1),
+          priceFormated: format( 3 * (id + 1)),
         }
       })
       setPokemons(pokebola)
